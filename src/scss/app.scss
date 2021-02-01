@@ -1,2 +1,119 @@
-@import "variables";
-@import "general";
+@import "_reset";
+@import "_variables";
+@import "_general";
+
+.header {
+  padding-top: 25px;
+}
+.container {
+  @media (max-width: 990px) {
+    padding: 0 20px;
+  }
+}
+.header-row {
+  @media (max-width: 990px) {
+    flex-direction: column;
+    align-items: end;
+  }
+}
+
+.logo {
+  &-link {
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+  @media (max-width: 990px) {
+    margin-bottom: 20px;
+  }
+}
+.menu {
+  &-link {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 11px;
+    line-height: 13px;
+    a {
+      color: #cacaca;
+    }
+    .active {
+      color: #ffffff;
+    }
+  }
+  @media (max-width: 990px) {
+    display: block;
+  }
+}
+.input {
+  width: 248px;
+  background: #3c3b3d;
+  border-radius: 50px;
+  padding: 5px 0 5px 10px;
+  @media (max-width: 990px) {
+    width: 100%;
+    margin-top: 18px;
+  }
+}
+
+.home {
+  padding: 200px 0 200px 0;
+  background: url(/images/header-bg.png) no-repeat center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: $color-white;
+  &-title {
+    font-weight: bold;
+    font-size: 60px;
+    line-height: 90px;
+    text-transform: uppercase;
+    @media (max-width: 990px) {
+      font-size: 30px;
+      line-height: 45px;
+    }
+  }
+  &-subtitle {
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 57px;
+    text-transform: uppercase;
+    @media (max-width: 990px) {
+      font-size: 18px;
+      line-height: 22px;
+    }
+  }
+  &-text {
+    font-size: 16px;
+    line-height: 150%;
+    margin-bottom: 18px;
+  }
+  &-input {
+    min-width: 270px;
+    min-height: 50px;
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px 0 15px 20px;
+    margin-bottom: 1.5rem;
+    @media (max-width: 990px) {
+      width: 100%;
+    }
+  }
+  &-form {
+    width: 573px;
+    @media (max-width: 990px) {
+      width: 100%;
+    }
+  }
+  &-btn {
+    color: $color-white;
+    height: 57px;
+    background: #34c176;
+    border-radius: 5px;
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 13.3px;
+    line-height: 15px;
+    text-transform: uppercase;
+  }
+}
