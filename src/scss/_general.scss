@@ -68,3 +68,18 @@ body {
 .bg-premium {
   background: url(/images/premium-bg.png) 0 0 / cover no-repeat;
 }
+.mb-65 {
+  margin: 0 0 65px 0;
+}
+.mr-50 {
+  margin-right: 50px;
+  @media (max-width: 990px) {
+    margin: 0;
+  }
+}
+.ml-50 {
+  margin-left: 50px;
+  @media (max-width: 990px) {
+    margin: 0;
+  }
+}
