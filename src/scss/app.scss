@@ -117,3 +117,80 @@
     text-transform: uppercase;
   }
 }
+
+.price {
+  padding: 100px 0 0 0;
+}
+.title {
+  color: $color-white;
+  text-align: center;
+  margin: 0 0 46px 0;
+  font-weight: bold;
+  font-size: 38px;
+  line-height: 57px;
+  @media (max-width: 990px) {
+    font-size: 18px;
+    line-height: 27px;
+  }
+}
+.price-row {
+  @media (max-width: 990px) {
+    flex-wrap: wrap;
+  }
+}
+.price-item {
+  padding: 21px 1.5rem 40px 1.5rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+.price-column {
+  display: flex;
+  flex: 0 1 30%;
+  margin: 0 0 39px 0;
+  @media (max-width: 990px) {
+    flex: 1 1 100%;
+  }
+}
+.item {
+  &-title {
+    font-size: 24px;
+    line-height: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-white;
+    padding-bottom: 200px;
+  }
+  span {
+    font-size: 64px;
+    line-height: 150%;
+    color: $color-white;
+    &:last-of-type {
+      font-size: 32px;
+      vertical-align: text-bottom;
+    }
+  }
+  p {
+    font-size: 12.8px;
+    line-height: 150%;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 64px;
+  }
+}
+.btn {
+  width: 100%;
+  display: inline-block;
+  margin: 24px 0 0 0;
+  padding: 21px 0;
+  font-size: 16px;
+  line-height: 150%;
+  color: $color-white;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+}
+.price-text p {
+  font-size: 16px;
+  line-height: 150%;
+  text-align: center;
+  color: $color-white;
+}

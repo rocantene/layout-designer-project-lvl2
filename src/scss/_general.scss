@@ -59,3 +59,12 @@ body {
 .flex-1-1-100 {
   flex: 1 1 100%;
 }
+.bg-free {
+  background: url(/images/free-bg.png) 0 0 / cover no-repeat;
+}
+.bg-standart {
+  background: url(/images/standart-bg.png) 0 0 / cover no-repeat;
+}
+.bg-premium {
+  background: url(/images/premium-bg.png) 0 0 / cover no-repeat;
+}
