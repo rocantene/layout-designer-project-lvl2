@@ -371,7 +371,7 @@ body {
 .title {
   color: #ffffff;
   text-align: center;
-  margin: 0 0 46px 0;
+  margin: 0 0 48px 0;
   font-weight: bold;
   font-size: 38px;
   line-height: 57px;
@@ -554,4 +554,52 @@ body {
   text-align: center;
   padding: 17px 0;
   color: #cacaca;
+}
+
+.mobile {
+  padding: 100px 0;
+}
+
+@media (max-width: 990px) {
+  .mobile-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.mobile-block {
+  width: 50%;
+  font-size: 16px;
+  line-height: 150%;
+  margin: 0 135px 0 0;
+}
+
+@media (max-width: 990px) {
+  .mobile-block {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    margin: 16px 0 0 0;
+    width: 100%;
+  }
+}
+
+@media (max-width: 990px) {
+  .mobile-img {
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+.mobile-btn {
+  display: inline-block;
+  background: #95390c;
+  border-radius: 2rem;
+  font-size: 12.8px;
+  line-height: 150%;
+  color: #ffffff;
+  padding: 17px 40px;
+  margin: 16px 0 0 0;
 }
