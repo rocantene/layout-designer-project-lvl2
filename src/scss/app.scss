@@ -494,14 +494,48 @@
     max-width: 100%;
   }
 }
-.discography-info {
-}
+
 .discography-title {
   font-size: 18px;
   line-height: 27px;
   color: #ffffff;
 }
 .discography-subtitle {
+  font-size: 16px;
+  line-height: 150%;
+  color: #e0e0e0;
+}
+
+.similar {
+  padding: 100px 0 100px 0;
+}
+.container {
+}
+.title {
+}
+.similar-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -25px;
+}
+.similar-item {
+  padding: 0 25px;
+  text-align: center;
+  &:nth-child(-n + 4) {
+    margin-bottom: 25px;
+  }
+}
+.similar-img {
+  margin: 0 0 17px 0;
+}
+.similar-info {
+}
+.similar-title {
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.similar-subtitle {
   font-size: 16px;
   line-height: 150%;
   color: #e0e0e0;
