@@ -377,7 +377,6 @@ body {
 
 .title {
   color: #ffffff;
-  text-align: center;
   margin: 0 0 48px 0;
   font-weight: bold;
   font-size: 38px;
@@ -768,4 +767,99 @@ body {
   padding-left: 36px;
   background: url(/images/icon/like.svg) left center no-repeat;
   display: inline-block;
+}
+
+.tracks {
+  padding: 100px 0;
+}
+
+.tracks-row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+@media (max-width: 990px) {
+  .tracks-row {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+.tracks-item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 50%;
+          flex: 1 1 50%;
+  margin: 0 0 25px 0;
+}
+
+.track-img {
+  margin: 0 15px 0 0;
+  -webkit-box-flex: 0;
+      -ms-flex: 0 0 50px;
+          flex: 0 0 50px;
+}
+
+.track-img img {
+  width: 100%;
+}
+
+.tracks-info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex: 1 1 auto;
+          flex: 1 1 auto;
+}
+
+.info-title {
+  font-weight: bold;
+  font-size: 12.8px;
+  line-height: 150%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.info-track {
+  font-size: 12.8px;
+  line-height: 150%;
+  color: #e0e0e0;
+}
+
+.info-time {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 49px 0 0;
+  font-size: 12.8px;
+  line-height: 150%;
+  color: #e0e0e0;
+}
+
+@media (max-width: 990px) {
+  .info-time {
+    margin: 0;
+  }
 }
