@@ -409,7 +409,7 @@
 }
 
 .tracks {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 
 .tracks-row {
@@ -423,6 +423,12 @@
   display: flex;
   flex: 1 1 50%;
   margin: 0 0 25px 0;
+  &:nth-child(5) {
+    margin: 0;
+  }
+  &:nth-child(6) {
+    margin: 0;
+  }
 }
 .track-img {
   margin: 0 15px 0 0;
@@ -460,4 +466,43 @@
   @media (max-width: 990px) {
     margin: 0;
   }
+}
+
+.discography {
+  padding: 100px 0 0 0;
+}
+.discography-row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -25px;
+}
+.discography-item {
+  padding: 0 25px;
+  &:nth-child(5) {
+    margin-top: 25px;
+  }
+  &:nth-child(6) {
+    margin-top: 25px;
+  }
+  @media (max-width: 990px) {
+    width: 50%;
+  }
+}
+.discography-img {
+  margin: 0 0 18px 0;
+  img {
+    max-width: 100%;
+  }
+}
+.discography-info {
+}
+.discography-title {
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.discography-subtitle {
+  font-size: 16px;
+  line-height: 150%;
+  color: #e0e0e0;
 }
