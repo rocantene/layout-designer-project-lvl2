@@ -164,9 +164,11 @@
     font-size: 64px;
     line-height: 150%;
     color: $color-white;
+    margin-right: 16px;
     &:last-of-type {
       font-size: 32px;
       vertical-align: text-bottom;
+      margin-right: 0;
     }
   }
   p {
@@ -294,4 +296,57 @@
   color: #ffffff;
   padding: 17px 40px;
   margin: 16px 0 0 0;
+}
+
+.footer {
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+  color: $color-white;
+  padding: 61px 0 0 0;
+}
+.footer-row {
+  display: flex;
+  column-gap: 100px;
+  justify-content: flex-start;
+  padding-bottom: 74px;
+}
+.footer-column {
+}
+.footer-title {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 150%;
+  text-transform: uppercase;
+  margin: 0 0 16px 0;
+}
+.footer-link {
+  a {
+    font-size: 16px;
+    line-height: 150%;
+    color: #e0e0e0;
+  }
+}
+.footer-socials {
+  display: flex;
+  align-items: center;
+  a {
+    margin: 0 24px 0 0;
+  }
+}
+.line {
+  border: 1px solid #e0e0e0;
+}
+.footer-bottom {
+  display: flex;
+  padding: 40px 0 48px 0;
+  li {
+    margin: 0 15px 0 0;
+    &:last-child {
+      margin: 0;
+    }
+    a {
+      font-size: 16px;
+      line-height: 150%;
+      color: #e0e0e0;
+    }
+  }
 }
