@@ -146,7 +146,7 @@
   }
 }
 .price-item {
-  padding: 21px 1.5rem 66px 1.5rem;
+  padding: 0 24px;
   border-radius: 1rem;
   text-align: center;
   @media (max-width: 990px) {
@@ -154,21 +154,21 @@
   }
 }
 .price-column {
+  width: calc(1100px / 3);
+  height: 615px;
   display: flex;
-  flex: 0 1 30%;
-  margin: 0 0 39px 0;
   @media (max-width: 990px) {
     flex: 1 1 100%;
   }
 }
 .item {
   &-title {
+    padding: 21px 0 180px 0;
     font-size: 24px;
     line-height: 45px;
     text-align: center;
     text-transform: uppercase;
     color: $color-white;
-    padding-bottom: 180px;
     @media (max-width: 990px) {
       font-size: 16px;
     }
@@ -193,22 +193,28 @@
     color: #ffffff;
     margin-top: 64px;
   }
+  &-link {
+    margin-top: 24px;
+  }
 }
 .btn {
   width: 100%;
   display: inline-block;
-  margin: 24px 0 0 0;
-  padding: 21px 0;
+  padding: 20px 0;
   font-size: 16px;
   color: $color-white;
   border: 1px solid #ffffff;
   border-radius: 5px;
+  line-height: 150%;
 }
 .price-text p {
   font-size: 16px;
   line-height: 150%;
   text-align: center;
   color: $color-white;
+}
+.price-text {
+  margin-top: 40px;
 }
 .news {
   padding: 100px 0 0 0;
