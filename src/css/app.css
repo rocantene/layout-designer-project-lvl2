@@ -449,6 +449,7 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  border-radius: 16px;
 }
 
 @media (max-width: 990px) {
@@ -492,9 +493,9 @@ body {
 .item p {
   font-size: 12.8px;
   line-height: 150%;
-  text-align: center;
   color: #ffffff;
   margin-top: 64px;
+  width: 99%;
 }
 
 .item-link {
@@ -512,15 +513,12 @@ body {
   line-height: 150%;
 }
 
-.price-text p {
-  font-size: 16px;
-  line-height: 150%;
-  text-align: center;
-  color: #ffffff;
-}
-
 .price-text {
   margin-top: 40px;
+  font-size: 16px;
+  line-height: 150%;
+  color: #ffffff;
+  text-align: center;
 }
 
 .news {
