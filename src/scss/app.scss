@@ -4,6 +4,9 @@
 
 .header {
   padding-top: 25px;
+  @media (max-width: 990px) {
+    padding-top: 27px;
+  }
 }
 .header-row {
   @media (max-width: 990px) {
@@ -65,7 +68,7 @@
   color: $color-white;
   height: 751px;
   @media (max-width: 990px) {
-    padding: 248px 0 200px 0;
+    padding: 250px 0 200px 0;
     height: 853px;
   }
   &-title {

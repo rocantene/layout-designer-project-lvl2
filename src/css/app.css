@@ -234,6 +234,12 @@ body {
 }
 
 @media (max-width: 990px) {
+  .header {
+    padding-top: 27px;
+  }
+}
+
+@media (max-width: 990px) {
   .header-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -313,7 +319,7 @@ body {
 
 @media (max-width: 990px) {
   .home {
-    padding: 248px 0 200px 0;
+    padding: 250px 0 200px 0;
     height: 853px;
   }
 }
