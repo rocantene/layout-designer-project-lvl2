@@ -95,7 +95,8 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1240px;
+  padding: 0 20px;
   margin: 0 auto;
 }
 
@@ -233,12 +234,6 @@ body {
 }
 
 @media (max-width: 990px) {
-  .container {
-    padding: 0 20px;
-  }
-}
-
-@media (max-width: 990px) {
   .header-row {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -313,6 +308,7 @@ body {
   background-size: cover;
   background-repeat: no-repeat;
   color: #ffffff;
+  height: 751px;
 }
 
 @media (max-width: 990px) {
@@ -352,16 +348,33 @@ body {
 .home-text {
   font-size: 16px;
   line-height: 150%;
+  color: #e0e0e0;
 }
 
 .home-input {
   min-width: 270px;
   min-height: 50px;
-  border: 2px solid rgba(255, 255, 255, 0.1);
+  border: 2px solid #cacaca;
   border-radius: 3px;
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0);
   padding: 15px 0 15px 20px;
   margin-bottom: 24px;
+}
+
+.home-input::-webkit-input-placeholder {
+  color: #ffffff;
+}
+
+.home-input:-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.home-input::-ms-input-placeholder {
+  color: #ffffff;
+}
+
+.home-input::placeholder {
+  color: #ffffff;
 }
 
 @media (max-width: 990px) {
@@ -392,7 +405,7 @@ body {
 }
 
 .price {
-  padding: 100px 0 100px 0;
+  padding: 100px 0 0 0;
 }
 
 .title {
@@ -502,6 +515,10 @@ body {
   line-height: 150%;
   text-align: center;
   color: #ffffff;
+}
+
+.news {
+  padding: 100px 0 0 0;
 }
 
 @media (max-width: 990px) {
