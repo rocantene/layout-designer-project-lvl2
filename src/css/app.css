@@ -35,7 +35,6 @@ body {
   height: 100%;
   font-size: 100%;
   line-height: 1;
-  font-size: 14px;
   -ms-text-size-adjust: 100%;
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -257,7 +256,7 @@ body {
   font-size: 11px;
   line-height: 13px;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 990px) {
@@ -278,7 +277,7 @@ body {
 }
 
 .menu-link .active {
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 990px) {
@@ -314,7 +313,7 @@ body {
   background: url(/images/header-bg.png) no-repeat center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: #fff;
   height: 751px;
 }
 
@@ -371,19 +370,19 @@ body {
 }
 
 .home-input::-webkit-input-placeholder {
-  color: #ffffff;
+  color: #fff;
 }
 
 .home-input:-ms-input-placeholder {
-  color: #ffffff;
+  color: #fff;
 }
 
 .home-input::-ms-input-placeholder {
-  color: #ffffff;
+  color: #fff;
 }
 
 .home-input::placeholder {
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 990px) {
@@ -403,7 +402,7 @@ body {
 }
 
 .home-btn {
-  color: #ffffff;
+  color: #fff;
   height: 57px;
   background: #34c176;
   border-radius: 5px;
@@ -418,7 +417,7 @@ body {
 }
 
 .title {
-  color: #ffffff;
+  color: #fff;
   margin: 0 0 48px 0;
   font-weight: bold;
   font-size: 38px;
@@ -471,7 +470,7 @@ body {
   line-height: 45px;
   text-align: center;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 990px) {
@@ -484,7 +483,7 @@ body {
 .item span {
   font-size: 64px;
   line-height: 150%;
-  color: #ffffff;
+  color: #fff;
   margin-right: 16px;
 }
 
@@ -499,7 +498,7 @@ body {
 .item p {
   font-size: 12.8px;
   line-height: 150%;
-  color: #ffffff;
+  color: #fff;
   margin-top: 64px;
   width: 99%;
 }
@@ -513,8 +512,8 @@ body {
   display: inline-block;
   padding: 20px 0;
   font-size: 16px;
-  color: #ffffff;
-  border: 1px solid #ffffff;
+  color: #fff;
+  border: 1px solid #fff;
   border-radius: 5px;
   line-height: 150%;
 }
@@ -523,7 +522,7 @@ body {
   margin-top: 40px;
   font-size: 16px;
   line-height: 150%;
-  color: #ffffff;
+  color: #fff;
   text-align: center;
 }
 
@@ -577,7 +576,7 @@ body {
 }
 
 .news-title {
-  color: #ffffff;
+  color: #fff;
   font-size: 30px;
   line-height: 27px;
   text-transform: capitalize;
@@ -698,14 +697,14 @@ body {
   border-radius: 2rem;
   font-size: 12.8px;
   line-height: 150%;
-  color: #ffffff;
+  color: #fff;
   padding: 17px 40px;
   margin: 16px 0 0 0;
 }
 
 .footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
-  color: #ffffff;
+  color: #fff;
   margin-top: 100px;
 }
 
@@ -826,7 +825,7 @@ body {
   background: url(/images/artist-header-bf.png) no-repeat center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #ffffff;
+  color: #fff;
 }
 
 @media (max-width: 990px) {
@@ -838,7 +837,7 @@ body {
 .home-link span {
   font-size: 12.8px;
   line-height: 62px;
-  color: #ffffff;
+  color: #fff;
   padding-left: 36px;
   background: url(/images/icon/play.svg) left center no-repeat;
   display: inline-block;
@@ -870,7 +869,7 @@ body {
 .favorite-button span {
   font-size: 12.8px;
   line-height: 62px;
-  color: #ffffff;
+  color: #fff;
   padding-left: 36px;
   background: url(/images/icon/like.svg) left center no-repeat;
   display: inline-block;
@@ -947,7 +946,7 @@ body {
   font-size: 12.8px;
   line-height: 150%;
   text-transform: uppercase;
-  color: #ffffff;
+  color: #fff;
 }
 
 .info-track {
@@ -1042,7 +1041,7 @@ body {
 .discography-title {
   font-size: 18px;
   line-height: 27px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .discography-subtitle {
@@ -1106,7 +1105,7 @@ body {
 .similar-title {
   font-size: 18px;
   line-height: 27px;
-  color: #ffffff;
+  color: #fff;
 }
 
 .similar-subtitle {
