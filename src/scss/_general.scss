@@ -2,7 +2,6 @@
 
 body {
   color: $main-color;
-  font-family: "Roboto", sans-serif;
   font-size: 18px;
 
   background-color: $main-bg;
@@ -13,85 +12,107 @@ body {
   margin: 0 auto;
   padding: 0 20px;
 }
+
 .df {
   display: flex;
 }
+
 .ml-a {
   margin-left: auto;
   @media (max-width: 990px) {
     margin: 0;
   }
 }
+
 .ai-c {
   align-items: center;
 }
+
 .mr-88 {
   margin-right: 88px;
 }
+
 .mr-16 {
   margin-right: 16px;
 }
+
 .mr-24 {
   margin-right: 24px;
 }
+
 .mb-30 {
   margin-bottom: 30px;
   @media (max-width: 990px) {
     margin-bottom: 16px;
   }
 }
+
 .p-a {
   position: absolute;
 }
 .w-100 {
   width: 100%;
 }
+
 .ta-c {
   text-align: center;
 }
+
 .mw-692 {
   max-width: 692px;
   margin: auto;
 }
+
 .fd-c {
   flex-direction: column;
 }
+
 .jc-sb {
   justify-content: space-between;
 }
+
 .fw-w {
   flex-wrap: wrap;
 }
+
 .flex-1-1-100 {
   flex: 1 1 100%;
 }
+
 .bg-free {
   background: url(/images/free-bg.png) 0 0 / cover no-repeat;
 }
+
 .bg-standart {
   background: url(/images/standart-bg.png) 0 0 / cover no-repeat;
 }
+
 .bg-premium {
   background: url(/images/premium-bg.png) 0 0 / cover no-repeat;
 }
+
 .mb-65 {
   margin: 0 0 65px 0;
 }
+
 .mr-50 {
   margin-right: 50px;
   @media (max-width: 990px) {
     margin: 0;
   }
 }
+
 .ml-50 {
   margin-left: 50px;
   @media (max-width: 990px) {
     margin: 0;
   }
 }
+
 .mb-16 {
   margin-bottom: 16px;
 }
+
 .mb-48 {
   margin-bottom: 48px;
 }
