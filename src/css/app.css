@@ -652,7 +652,7 @@ body {
 }
 
 .mobile {
-  padding: 100px 0;
+  padding: 100px 0 0 0;
 }
 
 @media (max-width: 990px) {
