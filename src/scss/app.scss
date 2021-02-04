@@ -4,6 +4,10 @@
 
 .header {
   padding-top: 25px;
+  padding-top: 23px;
+  @media (max-width: 990px) {
+    padding-top: 25px;
+  }
 }
 .header-row {
   @media (max-width: 990px) {
@@ -21,7 +25,7 @@
     color: #ffffff;
   }
   @media (max-width: 990px) {
-    margin-bottom: 18px;
+    margin-bottom: 17px;
   }
 }
 .menu {
@@ -65,8 +69,8 @@
   color: $color-white;
   height: 751px;
   @media (max-width: 990px) {
-    padding: 250px 0 200px 0;
-    height: 853px;
+    padding: 246px 0 200px 0;
+    height: 851px;
   }
   &-title {
     font-weight: bold;
@@ -86,6 +90,7 @@
     @media (max-width: 990px) {
       font-size: 18px;
       line-height: 27px;
+      margin-top: 2px;
     }
   }
   &-text {

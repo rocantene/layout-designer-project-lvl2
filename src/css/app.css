@@ -231,6 +231,13 @@ body {
 
 .header {
   padding-top: 25px;
+  padding-top: 23px;
+}
+
+@media (max-width: 990px) {
+  .header {
+    padding-top: 25px;
+  }
 }
 
 @media (max-width: 990px) {
@@ -255,7 +262,7 @@ body {
 
 @media (max-width: 990px) {
   .logo {
-    margin-bottom: 18px;
+    margin-bottom: 17px;
   }
 }
 
@@ -313,8 +320,8 @@ body {
 
 @media (max-width: 990px) {
   .home {
-    padding: 250px 0 200px 0;
-    height: 853px;
+    padding: 246px 0 200px 0;
+    height: 851px;
   }
 }
 
@@ -343,6 +350,7 @@ body {
   .home-subtitle {
     font-size: 18px;
     line-height: 27px;
+    margin-top: 2px;
   }
 }
 
