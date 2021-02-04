@@ -1063,9 +1063,14 @@ body {
   .similar-item {
     padding: 0;
     margin-right: 50px;
-    margin-bottom: 25px;
-    margin-top: 0;
     width: 137px;
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 990px) {
+  .similar-item:nth-child(-n + 6) {
+    margin-bottom: 25px;
   }
 }
 
