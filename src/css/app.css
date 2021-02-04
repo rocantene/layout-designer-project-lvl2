@@ -670,7 +670,7 @@ body {
 .footer {
   background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
   color: #ffffff;
-  padding: 61px 0 0 0;
+  margin-top: 100px;
 }
 
 .footer-row {
@@ -683,6 +683,7 @@ body {
       -ms-flex-pack: start;
           justify-content: flex-start;
   padding-bottom: 74px;
+  padding-top: 63px;
 }
 
 @media (max-width: 990px) {
@@ -977,7 +978,7 @@ body {
 }
 
 .similar {
-  padding: 100px 0 85px 0;
+  padding: 100px 0 0 0;
 }
 
 .similar-row {
@@ -992,7 +993,11 @@ body {
 .similar-item {
   padding: 0 25px;
   text-align: center;
-  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.similar-item:nth-child(-n + 4) {
+  margin-top: 0;
 }
 
 @media (max-width: 990px) {
