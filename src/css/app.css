@@ -437,6 +437,7 @@ body {
   .price-row {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
+    gap: 50px;
   }
 }
 
@@ -444,12 +445,6 @@ body {
   padding: 0 24px;
   border-radius: 1rem;
   text-align: center;
-}
-
-@media (max-width: 990px) {
-  .price-item {
-    padding: 10px 1.5rem 66px 1.5rem;
-  }
 }
 
 .price-column {
@@ -481,6 +476,7 @@ body {
 @media (max-width: 990px) {
   .item-title {
     font-size: 16px;
+    padding: 3px 0 173px 0;
   }
 }
 
@@ -575,7 +571,7 @@ body {
     -webkit-box-ordinal-group: 3;
         -ms-flex-order: 2;
             order: 2;
-    margin: 49px 0 0 0;
+    margin: 38px 0 0 0;
   }
 }
 
@@ -589,7 +585,7 @@ body {
 
 @media (max-width: 990px) {
   .news-title {
-    margin: 0 0 16px 0;
+    margin: 0 0 6px 0;
     font-size: 16px;
   }
 }
@@ -705,6 +701,8 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    padding-top: 70px;
+    padding-bottom: 43px;
   }
 }
 
@@ -716,7 +714,10 @@ body {
 
 @media (max-width: 990px) {
   .footer-column {
-    margin: 0 0 30px 0;
+    -webkit-box-flex: 1;
+        -ms-flex: 1 1 auto;
+            flex: 1 1 auto;
+    margin-bottom: 30px;
   }
 }
 
@@ -726,6 +727,12 @@ body {
   line-height: 150%;
   text-transform: uppercase;
   margin: 0 0 16px 0;
+}
+
+@media (max-width: 990px) {
+  .footer-title {
+    margin: 0 0 15px 0;
+  }
 }
 
 .footer-link a {
@@ -758,15 +765,6 @@ body {
   padding: 40px 0 48px 0;
 }
 
-@media (max-width: 990px) {
-  .footer-bottom {
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column;
-  }
-}
-
 .footer-bottom li {
   margin: 0 15px 0 0;
 }
@@ -785,6 +783,15 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #e0e0e0;
+}
+
+@media (max-width: 990px) {
+  .footer-bottom {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
 }
 
 .artist {
@@ -1017,14 +1024,6 @@ body {
 
 .similar-item:nth-child(-n + 4) {
   margin-top: 0;
-}
-
-@media (max-width: 990px) {
-  .similar-item {
-    -webkit-box-flex: 1;
-        -ms-flex: 1 1 50%;
-            flex: 1 1 50%;
-  }
 }
 
 .similar-img {
