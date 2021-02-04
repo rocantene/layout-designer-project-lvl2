@@ -965,12 +965,32 @@ body {
   margin: 0 -25px;
 }
 
+@media (max-width: 990px) {
+  .discography-row {
+    margin: 0;
+  }
+}
+
 .discography-item {
   padding: 0 25px;
 }
 
+@media (max-width: 990px) {
+  .discography-item {
+    padding: 0;
+    margin-right: 50px;
+    margin-bottom: 25px;
+  }
+}
+
 .discography-item:nth-child(5) {
   margin-top: 25px;
+}
+
+@media (max-width: 990px) {
+  .discography-item:nth-child(5) {
+    margin-top: 0;
+  }
 }
 
 .discography-item:nth-child(6) {
@@ -978,8 +998,14 @@ body {
 }
 
 @media (max-width: 990px) {
+  .discography-item:nth-child(6) {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 990px) {
   .discography-item {
-    width: 50%;
+    width: 137px;
   }
 }
 
@@ -1005,6 +1031,12 @@ body {
 
 .similar {
   padding: 100px 0 0 0;
+}
+
+@media (max-width: 990px) {
+  .similar {
+    padding: 75px 0 0 0;
+  }
 }
 
 .similar-row {

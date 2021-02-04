@@ -513,17 +513,31 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 -25px;
+  @media (max-width: 990px) {
+    margin: 0;
+  }
 }
 .discography-item {
   padding: 0 25px;
+  @media (max-width: 990px) {
+    padding: 0;
+    margin-right: 50px;
+    margin-bottom: 25px;
+  }
   &:nth-child(5) {
     margin-top: 25px;
+    @media (max-width: 990px) {
+      margin-top: 0;
+    }
   }
   &:nth-child(6) {
     margin-top: 25px;
+    @media (max-width: 990px) {
+      margin-top: 0;
+    }
   }
   @media (max-width: 990px) {
-    width: 50%;
+    width: 137px;
   }
 }
 .discography-img {
@@ -546,6 +560,9 @@
 
 .similar {
   padding: 100px 0 0 0;
+  @media (max-width: 990px) {
+    padding: 75px 0 0 0;
+  }
 }
 .similar-row {
   display: flex;
