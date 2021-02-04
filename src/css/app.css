@@ -980,6 +980,7 @@ body {
     padding: 0;
     margin-right: 50px;
     margin-bottom: 25px;
+    width: 137px;
   }
 }
 
@@ -1000,12 +1001,6 @@ body {
 @media (max-width: 990px) {
   .discography-item:nth-child(6) {
     margin-top: 0;
-  }
-}
-
-@media (max-width: 990px) {
-  .discography-item {
-    width: 137px;
   }
 }
 
@@ -1048,6 +1043,12 @@ body {
   margin: 0 -25px;
 }
 
+@media (max-width: 990px) {
+  .similar-row {
+    margin: 0;
+  }
+}
+
 .similar-item {
   padding: 0 25px;
   text-align: center;
@@ -1056,6 +1057,16 @@ body {
 
 .similar-item:nth-child(-n + 4) {
   margin-top: 0;
+}
+
+@media (max-width: 990px) {
+  .similar-item {
+    padding: 0;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    width: 137px;
+  }
 }
 
 .similar-img {

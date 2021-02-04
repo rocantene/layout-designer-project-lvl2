@@ -523,6 +523,7 @@
     padding: 0;
     margin-right: 50px;
     margin-bottom: 25px;
+    width: 137px;
   }
   &:nth-child(5) {
     margin-top: 25px;
@@ -535,9 +536,6 @@
     @media (max-width: 990px) {
       margin-top: 0;
     }
-  }
-  @media (max-width: 990px) {
-    width: 137px;
   }
 }
 .discography-img {
@@ -568,6 +566,9 @@
   display: flex;
   flex-wrap: wrap;
   margin: 0 -25px;
+  @media (max-width: 990px) {
+    margin: 0;
+  }
 }
 .similar-item {
   padding: 0 25px;
@@ -575,6 +576,13 @@
   margin-top: 25px;
   &:nth-child(-n + 4) {
     margin-top: 0;
+  }
+  @media (max-width: 990px) {
+    padding: 0;
+    margin-right: 50px;
+    margin-bottom: 25px;
+    margin-top: 0;
+    width: 137px;
   }
 }
 .similar-img {
