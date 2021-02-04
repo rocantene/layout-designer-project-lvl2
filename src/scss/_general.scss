@@ -19,6 +19,7 @@ body {
 
 .ml-a {
   margin-left: auto;
+
   @media (max-width: 990px) {
     margin: 0;
   }
@@ -42,6 +43,7 @@ body {
 
 .mb-30 {
   margin-bottom: 30px;
+
   @media (max-width: 990px) {
     margin-bottom: 16px;
   }
@@ -50,6 +52,7 @@ body {
 .p-a {
   position: absolute;
 }
+
 .w-100 {
   width: 100%;
 }
@@ -97,6 +100,7 @@ body {
 
 .mr-50 {
   margin-right: 50px;
+
   @media (max-width: 990px) {
     margin: 0;
   }
@@ -104,6 +108,7 @@ body {
 
 .ml-50 {
   margin-left: 50px;
+
   @media (max-width: 990px) {
     margin: 0;
   }
