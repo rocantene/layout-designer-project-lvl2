@@ -17,11 +17,6 @@
   outline: none;
 }
 
-a:focus,
-a:active {
-  outline: none;
-}
-
 nav,
 footer,
 header,
@@ -61,6 +56,11 @@ button::-moz-focus-inner {
 
 a {
   text-decoration: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
 }
 
 a:visited {
@@ -621,18 +621,18 @@ body {
   }
 }
 
-.news-info img {
+.news-info-autor {
   margin: 0 10px 0 0;
 }
 
-.news-info span {
+.news-info-name {
   font-size: 12.8px;
   line-height: 150%;
   color: #f89202;
   margin: 0 10px 0 0;
 }
 
-.news-info span:last-child {
+.news-info-date {
   font-size: 12.8px;
   line-height: 150%;
   color: #cacaca;

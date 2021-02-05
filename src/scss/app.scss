@@ -325,23 +325,23 @@
   @media (max-width: 990px) {
     margin: 0 0 48px 0;
   }
+}
 
-  img {
-    margin: 0 10px 0 0;
-  }
+.news-info-autor {
+  margin: 0 10px 0 0;
+}
 
-  span {
-    font-size: 12.8px;
-    line-height: 150%;
-    color: #f89202;
-    margin: 0 10px 0 0;
+.news-info-name {
+  font-size: 12.8px;
+  line-height: 150%;
+  color: #f89202;
+  margin: 0 10px 0 0;
+}
 
-    &:last-child {
-      font-size: 12.8px;
-      line-height: 150%;
-      color: #cacaca;
-    }
-  }
+.news-info-date {
+  font-size: 12.8px;
+  line-height: 150%;
+  color: #cacaca;
 }
 
 .btn-news {
