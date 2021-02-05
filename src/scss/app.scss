@@ -211,21 +211,6 @@
     }
   }
 
-  span {
-    font-size: 64px;
-    line-height: 150%;
-    color: $color-white;
-    margin-right: 16px;
-
-    &:last-of-type {
-      font-size: 32px;
-      vertical-align: top;
-      margin-right: 0;
-      margin-top: 15px;
-      display: inline-block;
-    }
-  }
-
   p {
     font-size: 12.8px;
     line-height: 150%;
@@ -237,6 +222,22 @@
   &-link {
     margin-top: 24px;
   }
+}
+
+.item-cost {
+  font-size: 64px;
+  line-height: 150%;
+  color: $color-white;
+  margin-right: 16px;
+}
+
+.item-rub {
+  font-size: 32px;
+  line-height: 150%;
+  color: $color-white;
+  vertical-align: top;
+  margin-top: 15px;
+  display: inline-block;
 }
 
 .btn {
