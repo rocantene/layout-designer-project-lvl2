@@ -59,7 +59,10 @@ button::-moz-focus-inner {
   border: 0;
 }
 
-a,
+a {
+  text-decoration: none;
+}
+
 a:visited {
   text-decoration: none;
 }
